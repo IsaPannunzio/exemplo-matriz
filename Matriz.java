@@ -28,7 +28,7 @@ public class Matriz {
         }
 
         for(double[] notasDoAluno: notasDaTurma){
-            System.out.printf("\n" + Arrays.toString(notasDoAluno));
+            System.out.println("\n" + Arrays.toString(notasDoAluno));
         }
 
         double media = total / (qtdAlunos * qtdNotas);
